@@ -10,17 +10,17 @@ public class CalculatorTest {
         assertEquals(5, calc.add(2, 3));
          @Test
     void testAddition() {
-        assertEquals(10, calculator.add(5,5));
+        assertEquals(10, calc.add(5,5));
     }
 
     @Test
     void testAdditionDifferentValues() {
-        assertEquals(7, calculator.add(3,4));
+        assertEquals(7, calc.add(3,4));
     }
 
     @Test
     void testAdditionNegative() {
-        assertEquals(-2, calculator.add(-1,-1));
+        assertEquals(-2, calc.add(-1,-1));
     }
 
     }
