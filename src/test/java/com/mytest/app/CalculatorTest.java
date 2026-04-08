@@ -1,27 +1,27 @@
-
 import static org.junit.Assert.*;
+import org.junit.Test;
 
-import org.junit.Test;
-import org.junit.Test;
 public class CalculatorTest {
+
+    Calculator calc = new Calculator();
+
     @Test
     public void testAdd() {
-        Calculator calc = new Calculator();
         assertEquals(5, calc.add(2, 3));
-         @Test
-    void testAddition() {
+    }
+
+    @Test
+    public void testAddition() {
         assertEquals(10, calc.add(5,5));
     }
 
     @Test
-    void testAdditionDifferentValues() {
+    public void testAdditionDifferentValues() {
         assertEquals(7, calc.add(3,4));
     }
 
     @Test
-    void testAdditionNegative() {
+    public void testAdditionNegative() {
         assertEquals(-2, calc.add(-1,-1));
-    }
-
     }
 }
